@@ -1,24 +1,27 @@
 package scrimp;
 
 import battlecode.common.RobotController;
+import scrimp.arrays.IntArray;
 
 public class RobotPlayer {
 
 	public static void run(RobotController rc) {
+        IntArray b = new IntArray();
+        b.add(1);
+        b.add(1);
 
-		while(true) {
-            try {
-                Object o = 1.0;
-                double a = 10.1234;
-                Timer.StartTimer();
-                double c = a;
-                Timer.EndTimer();
-                System.out.println(a);
 
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-			rc.yield();
-		}
+        int sum = 0;
+        System.out.println(b.length);
+        Timer.StartTimer();
+        for (int i = 0; i < b.length; i++) {
+            sum += b.arr[i];
+        }
+        Timer.EndTimer();
+        Timer.StartTimer();
+        for (int i = b.length; --i >= 0;) {
+            sum += b.arr[i];
+        }
+        Timer.EndTimer();
 	}
 }
