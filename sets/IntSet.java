@@ -1,5 +1,5 @@
 
-package scrimp.arrays;
+package scrimp.sets;
 
 /**
  * This class is a basic set for positive numbers
@@ -26,12 +26,12 @@ public class IntSet {
     public boolean[] contains;
     public int length = 0;
 
-    public IntArray() {
+    public IntSet() {
         arr = new int[100000];
         contains = new boolean[100000];
     }
 
-    public IntArray(int maxInt) {
+    public IntSet(int maxInt) {
         arr = new int[100000];
         contains = new boolean[maxInt + 1];
     }
