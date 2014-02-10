@@ -6,7 +6,7 @@ scrimp has two things:
 
 ## ByteCode Tests
 
-Check out [the tests](docs/bytecode/bytecode.md)!
+Extensive tests to see what is the bytecode optimal way of doing things. Check them out [here](docs/bytecode/bytecode.md)!
 
 ## Data structures
 
