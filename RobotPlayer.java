@@ -2,17 +2,17 @@ package scrimp;
 
 import battlecode.common.RobotController;
 import scrimp.arrays.IntArray;
-import scrimp.arrays.IterableArray;
+import scrimp.bytecode.ByteCodeTest;
+import scrimp.bytecode.ControlFlow.Functions;
 import scrimp.bytecode.ControlFlow.IfElseVsSwitch;
 
-import java.util.ArrayList;
 
 public class RobotPlayer {
 
 	public static void run(RobotController rc) {
         boolean test = false;
 
-        IfElseVsSwitch testing = new IfElseVsSwitch();
+        ByteCodeTest testing = new Functions();
         testing.run();
 
         /*

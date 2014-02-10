@@ -32,3 +32,6 @@ Loop of 1..31
    Switch
  ByteCodes: 389
 ```
+
+## Conclusion
+Use switch statements over if/else whenever possible!
