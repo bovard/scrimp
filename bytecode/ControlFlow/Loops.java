@@ -4,7 +4,15 @@ import scrimp.Timer;
 import scrimp.bytecode.ByteCodeTest;
 
 public class Loops implements ByteCodeTest{
-    private int[] arr = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    private int[] arr;
+
+    public Loops() {
+        int length = 100;
+        arr = new int[length];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = i;
+        }
+    }
 
     @Override
     public void run() {
