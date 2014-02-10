@@ -54,7 +54,7 @@ staticRecursive
 
 ## Conclusion
 
-  * Doing a compare against 0 (all the optimized loops do this) saves 3 bytecodes a turn and is definitely worth it. 
+  * Doing a compare against 0 (all the optimized loops do this) saves 3 bytecodes per iteration!
   * If you are really going for extra performance go for the do while loop.
   * Overall as long as you optimized doesn't matter if you use for, while or do while
   * Recursion seems like a valid option especially if you can force it to be static
