@@ -3,3 +3,4 @@
 
   * [If else vs Switch](if_else_vs_switch.md)
   * [Functions](functions.md)
+  * [Loops](loops.md)

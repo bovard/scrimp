@@ -6,6 +6,7 @@ import scrimp.arrays.IterableArray;
 import scrimp.bytecode.ByteCodeTest;
 import scrimp.bytecode.ControlFlow.Functions;
 import scrimp.bytecode.ControlFlow.IfElseVsSwitch;
+import scrimp.bytecode.ControlFlow.Loops;
 
 import java.util.ArrayList;
 
@@ -15,10 +16,8 @@ public class RobotPlayer {
 	public static void run(RobotController rc) {
         boolean test = false;
 
-        /*
-        ByteCodeTest testing = new Functions();
+        ByteCodeTest testing = new Loops();
         testing.run();
-        */
 
         /*
         System.out.println("Making an int");
@@ -44,6 +43,7 @@ public class RobotPlayer {
         */
 
 
+        /*
         int num = 50;
 
         System.out.println("Good Way Array");
@@ -81,6 +81,7 @@ public class RobotPlayer {
             System.out.println(i);
         }
         Timer.EndTimer();
+        */
 
 
         if (test) {
