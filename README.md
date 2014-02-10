@@ -6,7 +6,7 @@ scrimp has two things:
 
 ## ByteCode Tests
 
-Check out (the tests)[docs/bytecode/bytecode.md]!
+Check out [the tests](docs/bytecode/bytecode.md)!
 
 ## Data structures
 
