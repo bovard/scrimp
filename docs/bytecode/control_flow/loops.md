@@ -6,7 +6,7 @@ This tests teh various ways of doing loops
 See [Loops.java](../../../bytecode/ControlFlow/Loops.java)
 
 ## Output
-Looping over an array of 10 elements this is the result.
+Looping over an array of 10 elements and compting the sum this is the result.
 
 ```
 iteratorFor
@@ -29,7 +29,7 @@ staticRecursive
   ByteCodes: 114
 ```
 
-Looping over an array of 100 elements this is the result.
+Looping over an array of 100 elements and computing the sum this is the result.
 ```
 iteratorFor
   ByteCodes: 1318
