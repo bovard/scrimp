@@ -3,7 +3,7 @@
 This tests the various ways of defining functions
 
 ## Source
-See [IfElseVsSwitch](../../../bytecode/ControlFlow/Functions.java)
+See [Functions.java](../../../bytecode/ControlFlow/Functions.java)
 
 ## Output
 

@@ -3,7 +3,7 @@
 This tests teh various ways of doing loops
 
 ## Source
-See [IfElseVsSwitch](../../../bytecode/ControlFlow/Loops.java)
+See [Loops.java](../../../bytecode/ControlFlow/Loops.java)
 
 ## Output
 Looping over an array of 10 elements this is the result.

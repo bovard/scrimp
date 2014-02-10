@@ -3,7 +3,7 @@
 This tests using a very long if, else if, ...., else statement vs a switch statement.
 
 ## Source
-See [IfElseVsSwitch](../../../bytecode/ControlFlow/IfElseVsSwitch.java)
+See [IfElseVsSwitch.java](../../../bytecode/ControlFlow/IfElseVsSwitch.java)
 
 ## Output
 
