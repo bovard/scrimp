@@ -10,8 +10,10 @@ Check out [the tests](docs/bytecode/bytecode.md)!
 
 ## Data structures
 
-#### Who should use this
-These aren't the best things to use, they are just a lot faster than the Java equivalents. For example:
+A collection of ligher weight data structures and algorithms. These won't be the fastest in the world but they will be much faster than their java.utils.* equivilants.
+
+#### Who should use these
+Use these if you're new to BattleCode and just want to get something up there and working! You can worry about Bytecode optimization later but for now this collection will get you up and running with large performance gains over the java.utils.* and should be just as easy to use.
 
 ```
 System.out.println("Good Way Array");
