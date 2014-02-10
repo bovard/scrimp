@@ -1,6 +1,6 @@
-#  Functions
+# Loops
 
-This tests teh various ways of doing loops
+This tests the various ways of doing loops
 
 ## Source
 See [Loops.java](../../../bytecode/ControlFlow/Loops.java)
