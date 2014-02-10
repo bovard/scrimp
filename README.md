@@ -16,6 +16,8 @@ A collection of ligher weight data structures and algorithms. These won't be the
 Use these if you're new to BattleCode and just want to get something up there and working! You can worry about Bytecode optimization later but for now this collection will get you up and running with large performance gains over the java.utils.* and should be just as easy to use.
 
 ```
+int num = 50;
+
 System.out.println("Good Way Array");
 Timer.StartTimer();
 int[] intA = new int[num];
