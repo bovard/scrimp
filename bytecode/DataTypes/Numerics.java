@@ -6,13 +6,15 @@ import scrimp.bytecode.ByteCodeTest;
 public class Numerics implements ByteCodeTest {
     @Override
     public void run() {
+
+        addTest((int) 10, (short) 10, (long) 10, (byte) 10, 23432.23f, 23432.23d);
+        timesTest((int) 10, (short) 10, (long) 10, (byte) 10, 23432.23f, 23432.23d);
         bitShiftTest();
     }
 
-
     public static void bitShiftTest() {
         int intInit = 10;
-        System.out.println("Bit Shift...");
+        System.out.println("Multiplying...");
         System.out.println("ints");
         Timer.StartTimer();
         intInit = intInit >> 2;
