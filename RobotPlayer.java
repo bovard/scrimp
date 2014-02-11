@@ -7,6 +7,7 @@ import scrimp.bytecode.ByteCodeTest;
 import scrimp.bytecode.ControlFlow.Functions;
 import scrimp.bytecode.ControlFlow.IfElseVsSwitch;
 import scrimp.bytecode.ControlFlow.Loops;
+import scrimp.bytecode.DataTypes.Numerics;
 
 import java.util.ArrayList;
 
@@ -16,7 +17,7 @@ public class RobotPlayer {
 	public static void run(RobotController rc) {
         boolean test = false;
 
-        ByteCodeTest testing = new Loops();
+        ByteCodeTest testing = new Numerics();
         testing.run();
 
         /*
