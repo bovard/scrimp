@@ -7,7 +7,7 @@ See [Numerics.java](../../../bytecode/DataTypes/Numerics.java)
 
 ## Output
 
-| Type | Init cost | += cost | *= cost |
+| Type | init | += | *= |
 | --- | --- | --- | --- |
 | int  | 2  | 4 | 4 |
 | short | 2 | 5 | 5 |
