@@ -14,7 +14,7 @@ public class Numerics implements ByteCodeTest {
 
     public static void bitShiftTest() {
         int intInit = 10;
-        System.out.println("Multiplying...");
+        System.out.println("Bit Shifting...");
         System.out.println("ints");
         Timer.StartTimer();
         intInit = intInit >> 2;
