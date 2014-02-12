@@ -59,3 +59,25 @@ Timer.EndTimer();
 ```
 
 So while the scrimp [IterableArray](arrays/IterableArray.java) is about 2x more efficient than the java.utils.ArrayList it's still 3x less efficient than doing it the optimal way!
+
+
+## How to set up scrimp
+
+### Dependecencies
+
+You will need:
+ 1. git installed
+ 2. java installed
+ 3. ant installed
+
+### How to install
+
+ 1. Download the battlecode client [here](http://s3.amazonaws.com/battlecode-releases-2014/releases/battlecode-1.3.3.jar)
+ 2. Install it in something like MyDocuments ```java -jar battlecode-1.3.3.jar``` (or run as a jar)
+ 3. In git, cd to the teams directory then clone ```git clone https://github.com/bovard/scrimp.git```
+ 4. Copy the bc.conf ``cp scrimp/bc.conf .```
+
+### Run it
+```
+ant file
+```
