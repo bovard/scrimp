@@ -1,9 +1,9 @@
-# Numerics
+# Numerics Comparisons
 
-Tests the various instantiations and functions on the numeric data types.
+In depth test of comparisons against ints
 
 ## Source
-See [Numerics.java](../../../bytecode/DataTypes/Numerics.java)
+See [NumericsComparisons.java](../../../bytecode/DataTypes/NumericsComparisons.java)
 
 ## Output
 
@@ -16,7 +16,6 @@ See [Numerics.java](../../../bytecode/DataTypes/Numerics.java)
 | float  | 2 | 4 | 4 | - | 4 | 4 |
 | double | 2 | 4 | 4 | - | 4 | 4 |
 
-* On average, see details (here)[numerics_comparisons.md]
 
 ## Conclusion
-Try and use int's for everything!
+Try and use ints for everything!

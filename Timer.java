@@ -23,6 +23,20 @@ public class Timer {
         return byteCode;
 	}
 
+    public static final int EndTimer(int toSubtract) {
+		round += Clock.getRoundNum();
+        int clockByteCode = Clock.getBytecodeNum();
+
+        int byteCode;
+		if (round == 0) {
+			byteCode =  time + clockByteCode - TIMER_COSTS - toSubtract - 1;
+		} else {
+			byteCode = time + (round * 10000) + clockByteCode - TIMER_COSTS - toSubtract - 1;
+		}
+        System.out.println("ByteCodes: " + byteCode);
+        return byteCode;
+	}
+
     public static final int GetRounds(int calcs) {
         return (GameConstants.BYTECODE_LIMIT - (Clock.getBytecodeNum() + 50)) / calcs;
     }

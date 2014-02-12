@@ -7,9 +7,17 @@ public class Numerics implements ByteCodeTest {
     @Override
     public void run() {
 
-        addTest((int) 10, (short) 10, (long) 10, (byte) 10, 23432.23f, 23432.23d);
-        timesTest((int) 10, (short) 10, (long) 10, (byte) 10, 23432.23f, 23432.23d);
-        bitShiftTest();
+        //addTest((int) 10, (short) 10, (long) 10, (byte) 10, 23432.23f, 23432.23d);
+        //timesTest((int) 10, (short) 10, (long) 10, (byte) 10, 23432.23f, 23432.23d);
+        System.out.println("Comparing against zero");
+        comparisonTest((int) 0, (short) 0, (long) 0, (byte) 0, 0f, 0d);
+        System.out.println("Comparing against less than");
+        comparisonTest((int) 9, (short) 9, (long) 9, (byte) 9, 9.23f, 9.23d);
+        System.out.println("Comparing against equal");
+        comparisonTest((int) 10, (short) 10, (long) 10, (byte) 10, 10.002341423f, 10.002341423d);
+        System.out.println("Comparing against greater than");
+        comparisonTest((int) 11, (short) 11, (long) 11, (byte) 11, 23432.23f, 23432.23d);
+        //bitShiftTest();
     }
 
     public static void bitShiftTest() {
@@ -27,6 +35,52 @@ public class Numerics implements ByteCodeTest {
         Timer.EndTimer();
 
     }
+
+
+
+    public static void comparisonTest(int intToAdd, short shortToAdd, long longToAdd, byte byteToAdd, float floatToAdd, double doubleToAdd) {
+        int intInit = 10;
+        System.out.println("Printing");
+        Timer.StartTimer();
+        System.out.println(" ");
+        Timer.EndTimer();
+        System.out.println("Comparing...");
+        System.out.println("ints");
+        Timer.StartTimer();
+        System.out.println(intInit == intToAdd);
+        Timer.EndTimer();
+
+        short shortInit = 10;
+        System.out.println("shorts");
+        Timer.StartTimer();
+        System.out.println(shortInit == shortToAdd);
+        Timer.EndTimer();
+
+        long longInit = 10;
+        System.out.println("longs");
+        Timer.StartTimer();
+        System.out.println(longInit == longToAdd);
+        Timer.EndTimer();
+
+        byte byteInit = 10;
+        System.out.println("byte");
+        Timer.StartTimer();
+        System.out.println(byteInit == byteToAdd);
+        Timer.EndTimer();
+
+        float floatInit = 10.002341423f;
+        System.out.println("floats");
+        Timer.StartTimer();
+        System.out.println(floatInit == floatToAdd);
+        Timer.EndTimer();
+
+        double doubleInit = 10.002341423d;
+        System.out.println("doubles");
+        Timer.StartTimer();
+        System.out.println(doubleInit == doubleToAdd);
+        Timer.EndTimer();
+    }
+
 
     public static void timesTest(int intToAdd, short shortToAdd, long longToAdd, byte byteToAdd, float floatToAdd, double doubleToAdd) {
         int intInit = 10;
