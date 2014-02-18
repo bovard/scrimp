@@ -9,9 +9,11 @@ See [NumericsComparisons.java](../../../bytecode/DataTypes/NumericsComparisons.j
 
 ### Var comapes
 
+```
 for int i in (-1, 0, 1):
   for int j in (-1, 0, 1):
-      compare i < j
+      compare i and j
+```
 
 | i | j | == | > | < | >= | <= |
 | --- | --- | --- | --- | --- | --- | --- |
