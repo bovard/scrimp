@@ -22,6 +22,30 @@ public class RobotPlayer {
         testing.run();
 
         /*
+        String a = "asdf";
+        String b = "asdf";
+        String c;
+        Timer.StartTimer();
+        c = a + b;
+        Timer.EndTimer();
+
+        int[] array1 = new int[]{1, 2, 3, 4};
+        int[] array2 = new int[]{ 1, 2, 3, 4};
+        int[] array1and2 = new int[array1.length + array2.length];
+        Timer.StartTimer();
+        System.arraycopy(array1, 0, array1and2, 0, array1.length);
+        System.arraycopy(array2, 0, array1and2, array1.length, array2.length);
+        Timer.EndTimer();
+
+
+        long l = 3L;
+        Timer.StartTimer();
+        System.out.println(Long.bitCount(l));
+        Timer.EndTimer();
+
+        /*
+
+        /*
         System.out.println("Making an int");
         Timer.StartTimer();
         int testA = 1;
