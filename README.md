@@ -84,3 +84,18 @@ You will need:
 ```
 ant file
 ```
+
+## TODO
+
+* lots more tests!
+  * arrays
+  * MapLocations
+  * built in java.utils things
+  * others...
+
+* create some more data structures
+  * min heap
+  * set
+  * max heap
+  * map representation
+  * lots more...
