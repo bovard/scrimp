@@ -8,6 +8,9 @@ scrimp has two things:
 
 Extensive tests to see what is the bytecode optimal way of doing things. Check them out [here](docs/bytecode/bytecode.md)!
 
+  * [Control Flow](docs/bytecode/control_flow/control_flow.md)
+  * [Data Types](docs/bytecode/data_types/data_types.md)
+
 ## Data structures
 
 A collection of ligher weight data structures and algorithms. These won't be the fastest in the world but they will be much faster than their java.utils.* equivilants.
