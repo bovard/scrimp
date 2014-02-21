@@ -18,15 +18,18 @@ public class RobotPlayer {
 	public static void run(RobotController rc) {
         boolean test = false;
 
-        ByteCodeTest testing = new NumericsComparisons();
-        testing.run();
+        //ByteCodeTest testing = new NumericsComparisons();
+        //testing.run();
 
-        /*
         String a = "asdf";
         String b = "asdf";
         String c;
         Timer.StartTimer();
         c = a + b;
+        Timer.EndTimer();
+
+        Timer.StartTimer();
+        c = a.concat(b).concat(a);
         Timer.EndTimer();
 
         int[] array1 = new int[]{1, 2, 3, 4};
@@ -36,7 +39,9 @@ public class RobotPlayer {
         System.arraycopy(array1, 0, array1and2, 0, array1.length);
         System.arraycopy(array2, 0, array1and2, array1.length, array2.length);
         Timer.EndTimer();
+        System.out.println(array1and2.toString());
 
+        /*
 
         long l = 3L;
         Timer.StartTimer();
