@@ -22,7 +22,7 @@ public class Strings implements ByteCodeTest {
         String b = "b";
         Timer.EndTimer();
 
-        System.out.println("Declaration and assignment = a much longer assignmetn");
+        System.out.println("Declaration and assignment = a much longer assignment");
         Timer.StartTimer();
         String c = "a much longer assigment";
         Timer.EndTimer();
